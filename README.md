@@ -32,7 +32,7 @@ To assess the predictive performance of four GARCH variants (GARCH, EGARCH, GJR-
 | GJR-LSTM     | 0.01384  | 0.9537  | 0.030          |
 | APARCH-LSTM  | 0.01360  | 0.9553  | 0.151          |
 
-APARCH-LSTM showed the best predictive accuracy, with over 95,5%.
+APARCH-LSTM showed the best predictive accuracy, with over 95,5%. The superior performance of the APARCH-LSTM model may be attributed to the greater flexibility of the APARCH (Asymmetric Power ARCH) specification in capturing both asymmetries and non-linearities in the conditional volatility process. Unlike traditional GARCH or EGARCH models, APARCH introduces a power term and allows for asymmetry in response to positive and negative shocks, better reflecting the volatility behavior commonly observed in emerging markets like Brazil. This enhanced modeling of volatility dynamics likely provided more informative inputs for the LSTM network, enabling more accurate forecasts of realized volatility. The results suggest that combining a richer volatility structure with deep learning can improve predictive performance in high-noise financial environments.
 
 ## 🧠 Technologies Used
 
