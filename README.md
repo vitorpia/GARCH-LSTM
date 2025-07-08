@@ -1,4 +1,3 @@
-# GARCH-LSTM
 # Hybrid GARCH-LSTM Model for Exchange Rate Volatility Forecasting
 
 This repository contains a hybrid modeling framework that combines traditional econometric GARCH-family models with deep learning (LSTM) to forecast the realized volatility (RV) of the USD/BRL exchange rate.
@@ -42,10 +41,6 @@ APARCH-LSTM showed the best predictive accuracy, with over 95,5%.
 - Statsmodels
 - Scikit-learn
 - Matplotlib
-
-## 📄 License
-
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
 ---
 
